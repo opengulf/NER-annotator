@@ -44,7 +44,7 @@ See screenshot below:<br>
 ``` python annotator/server.py ```<br>
 - View the gif below and follow the instructions: <br>
 
-### 3. Run the client<br>
+## III. Run the client
 - Open a new command prompt (note: don't close your open command prompt where the server is running). <br>
 - Navigate to the ui folder: <br>
 ```cd Desktop/NER-annotator/ui``` <br>
@@ -56,7 +56,7 @@ See screenshot below:<br>
 
 - Upon successful completion, you should see the following terminal output:
 
-### 4. Annotate with NER-annotator<br>
+### IV. Test the NER-annotator<br>
 - Navigate to the following link in your browser: http://localhost:8080/ (should be the same link that appears as an output of the 'yarn serve' commmand<br>
   You should see the following page:
 - Click on the 'Select file to start annotating' and select a file named 'tester' in the 'NER-annotator' file as a file to be annotated (see screenshot below):
