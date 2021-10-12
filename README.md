@@ -7,7 +7,7 @@ To install the NER-Annotator on Windows Virtual machine, please follow the steps
 - In the search panel, search for the 'Edit environmental variables on my account' (see image below):<br>
 - In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button (see screenshot below):<br>
 - Add the following line in the 'Variable name' entry: C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\ <br>
-- Add the the following line in the 'Variable value' entry: ; (See the screenshot below):<br>
+- Add the following line in the 'Variable value' entry: ; (See the screenshot below):<br>
 
 ### 2. Setup NPM:<br>
 - In the search panel, search for the 'Edit environmental variables on my account' (see image below):<br>
