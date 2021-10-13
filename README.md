@@ -5,24 +5,30 @@ To install the NER-Annotator on Windows Virtual machine, please follow the steps
 ### 1. Setup Git<br>
 - Install Git by opening the following link in your browser: https://git-scm.com/download/win <br>
 - In the search panel, search for the 'Edit environmental variables on my account' (see image below):<br>
+<img src="images/menu.png" /> <br>
+
 - In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button (see screenshot below):<br>
+<img src="images/new-git.png" /> <br>
 - Add the following line in the 'Variable name' entry: C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\ <br>
 - Add the following line in the 'Variable value' entry: ; (See the screenshot below):<br>
+<img src="images/setup-git.png" /> <br>
 
 ### 2. Setup NPM:<br>
 - In the search panel, search for the 'Edit environmental variables on my account' (see image below):<br>
-- In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button (see screenshot below):<br>
+- In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button.
 - Add the following line in the 'Variable name' entry: C:\Users\netid\AppData\Roaming\npm\ <br>
    Note that you should replace 'netid' with your real nyu netid (e.g. aa5456) <br>
 - Add the the following line in the 'Variable value' entry: ; (See the screenshot below):<br>
+<img src="images/setup-npm.png" /> <br>
 
 ### 3. Setup Yarn<br>
 - Install Yarn by opening the following link in your browser: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable <br>
-See screenshot below:<br>
 - In the search panel, search for the 'Edit environmental variables on my account' (see image below):<br>
-- In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button (see screenshot below):<br>
+- In the 'Environmental variables' tab, in the 'User variables' section, click on 'New' button.
 - Add the following line in the 'Variable name' entry: C:\Program Files (x86)\Yarn\ <br>
 - Add the the following line in the 'Variable value' entry: ; (See the screenshot below):<br>
+<img src="images/setup-yarn.png" /> <br>
+
 
 ## II. Run the server
 ### 1. Clone NER-annotator repository<br>
@@ -43,6 +49,9 @@ See screenshot below:<br>
 - Run the server:
 ``` python annotator/server.py ```<br>
 - View the gif below and follow the instructions: <br>
+<img src="images/server.webm" /> <br>
+- Upon successful completion, you should see the following terminal output:
+<img src="images/server-out.png" /> <br>
 
 ## III. Run the client
 - Open a new command prompt (note: don't close your open command prompt where the server is running). <br>
@@ -53,14 +62,16 @@ See screenshot below:<br>
 - Run yarn server:
 ``` yarn serve ```<br>
 - View the gif below and follow the instructions: <br>
+<img src="images/client.webm" /> <br>
 
-- Upon successful completion, you should see the following terminal output:
 
 ### IV. Test the NER-annotator<br>
 - Navigate to the following link in your browser: http://localhost:8080/ (should be the same link that appears as an output of the 'yarn serve' commmand<br>
   You should see the following page:
 - Click on the 'Select file to start annotating' and select a file named 'tester' in the 'NER-annotator' file as a file to be annotated (see screenshot below):
+<img src="images/tester.png" /> <br>
 - You should see the following page:
+<img src="images/target.png" /> <br>
 - To annotate the text, add a new tag and try annotating the first line
 
 
